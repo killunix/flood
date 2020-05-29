@@ -1,5 +1,5 @@
 const CONFIG = {
-  baseURI: process.env.FLOOD_BASE_URI || '/',
+  baseURI: process.env.FLOOD_BASE_URI || '/flood',
   dbCleanInterval: 1000 * 60 * 60,
   dbPath: '/data/server/db/',
   floodServerPort: 3000,
